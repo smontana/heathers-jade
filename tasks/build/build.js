@@ -80,14 +80,15 @@ var lessTask = function () {
 gulp.task('less', ['clean'], lessTask)
 gulp.task('less-watch', lessTask)
 
-//---PUG
+//---PUG---------------------------------
 
 var indexTask = function buildHTML() {
   return gulp.src('app/app.pug')
   .pipe(rename("app.html"))
   .pipe(plumber())
   .pipe(pug({
-    pretty: true
+    pretty: true,
+    basedir: __dirname
   }))
   .pipe(gulp.dest(destDir.path('./')))
 }
@@ -98,12 +99,15 @@ var viewsTask = function buildHTML() {
   return gulp.src('app/views/sections/*.pug')
   .pipe(plumber())
   .pipe(pug({
-    pretty: true
+    pretty: true,
+    basedir: __dirname + '/views/sections'
   }))
   .pipe(gulp.dest(destDir.path('views/sections')))
 }
 gulp.task('views', ['clean'], viewsTask)
 gulp.task('views-watch', viewsTask)
+
+//---------------------------------------
 
 gulp.task('environment', ['clean'], function () {
   var configFile = 'config/env_' + utils.getEnvName() + '.json'
