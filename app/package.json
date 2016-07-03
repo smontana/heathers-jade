@@ -1,0 +1,29 @@
+{
+  "name": "heathers-qpa-app",
+  "productName": "QPA Handbook",
+  "description": "QPA booklet.",
+  "version": "0.1.0",
+  "author": "Stephen Montana",
+  "copyright": "© 2016, Dealertrack",
+  "main": "background.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "fs-jetpack": "^0.9.2"
+  },
+  "devDependencies": {
+
+  },
+  "packageNameTemplate": "{{name}}-v{{version}}-{{platform}}-{{arch}}",
+  "osx": {
+    "build": "1",
+    "identifier": "com.example.electron-boilerplate",
+    "LSApplicationCategoryType": "public.app-category.productivity",
+    "//codeSignIdentitiy": {
+      "dmg": "Developer ID Application: Company Name (APPIDENTITY)",
+      "MAS": "3rd Party Mac Developer Application: Company Name (APPIDENTITY)",
+      "MASInstaller": "3rd Party Mac Developer Installer: Company Name (APPIDENTITY)"
+    }
+  }
+}

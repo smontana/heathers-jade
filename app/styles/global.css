@@ -1,0 +1,16 @@
+/* Global ---------------------------- */
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  background: url(../images/htmlbg.png) repeat;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*.container {
+  text-align: center;
+}*/

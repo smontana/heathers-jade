@@ -2,7 +2,8 @@
   "devDependencies": {
     "asar": "^0.11.0",
     "devtron": "^1.2.1",
-    "electron-prebuilt": "^1.0.1",
+    // "electron-prebuilt": "^1.0.1",
+    "electron-prebuilt-compile": "^1.2.5",
     "standard": "^7.1.2"
   },
   "optionalDependencies": {
