@@ -72,7 +72,8 @@ function createWindow (name, options) {
     userDataDir.write(stateStoreFile, state, { atomic: true });
   };
 
-  state = ensureVisibleOnSomeDisplay(restore());
+  // state = ensureVisibleOnSomeDisplay(restore());
+  state = ensureVisibleOnSomeDisplay(resetToDefaults());
 
   win = new electron.BrowserWindow(Object.assign({}, options, state));
 
@@ -86,11 +87,10 @@ var env = jetpack.cwd(__dirname).read('env.json', 'json');
 
 electron.app.on('ready', function () {
   var mainWindow = createWindow('main', {
-    width: 1000,
-    height: 600
-    // TODO: Import below for windows
-    // ,titleBarStyle: 'hidden-inset',
-    // autoHideMenuBar: true
+    width: 1200,
+    minWidth: 870,
+    height: 800,
+    minHeight: 588
   })
 
   mainWindow.loadURL('file://' + __dirname + '/app.html')

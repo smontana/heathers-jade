@@ -7,6 +7,7 @@
     <link href="styles/photonkit/css/photon.min.css" rel="stylesheet" type="text/css">
     <link href="styles/global.css" rel="stylesheet" type="text/css">
     <link href="styles/sidebar.css" rel="stylesheet" type="text/css">
+    <link href="styles/sections.css" rel="stylesheet" type="text/css">
     <link href="styles/sections/home_page.css" rel="stylesheet" type="text/css">
     <script src="app.js"></script>
   </head>
@@ -14,18 +15,51 @@
     <div class="window">
       <div class="window-content">
         <div class="pane-group">
-          <pane class="pane-sm sidebar">
-            <nav class="nav-group">
-              <h5 class="nav-group-title">Sections</h5><span class="nav-group-item"><span class="icon icon-home"></span>Home</span><span class="nav-group-item"><span class="icon icon-home"></span>Call Opening</span><span class="nav-group-item"><span class="icon icon-home"></span>Tone</span><span class="nav-group-item"><span class="icon icon-home"></span>Language</span><span class="nav-group-item"><span class="icon icon-home"></span>Fact Finding</span><span class="nav-group-item"><span class="icon icon-home"></span>Communication</span><span class="nav-group-item"><span class="icon icon-home"></span>Call Handling</span><span class="nav-group-item"><span class="icon icon-home"></span>Account Verification</span><span class="nav-group-item"><span class="icon icon-home"></span>Product Knowledge</span><span class="nav-group-item"><span class="icon icon-home"></span>Case Notations</span><span class="nav-group-item"><span class="icon icon-home"></span>Responsibility and Accountability</span><span class="nav-group-item"><span class="icon icon-home"></span>Call Closing</span><span class="nav-group-item"><span class="icon icon-home"></span>Auto Fails</span><span class="nav-group-item"><span class="icon icon-home"></span>Examples</span><span class="nav-group-item"><span class="icon icon-home"></span>Appeal Process</span>
-            </nav>
-          </pane>
-          <div class="pane">
-            <div class="home_page">
-              <div class="home_page_image"></div>
+          <div class="pane pane-sm sidebar">
+            <div class="logo"></div>
+            <div class="sidebar-menu">
+              <nav class="nav-group">
+                <h1 class="nav-group-title text-center">Menu</h1>
+                <div class="sidebar-menu-items">
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="homepage">Home</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="call_open">Call Opening</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="tone">Tone</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="language">Language</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="fact_finding">Fact Finding</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="communication">Communication</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="call_handling">Call Handling</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="acct_verification">Account Verification</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="prod_knowledge">Product Knowledge</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="case_notations">Case Notations</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="resp_and_account">Responsibility and Accountability</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="call_closing">Call Closing</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="auto_fails">Auto Fails</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="examples">Examples</button>
+                  <button class="nav-group-item btn btn-large btn-default icon icon-home main-btn" id="appeal_proc">Appeal Process</button>
+                </div>
+              </nav>
             </div>
+          </div>
+          <div class="pane sections-list">
+            <div class="app-section" id="homepage_sec"></div>
+            <div class="app-section" id="call_open_sec"></div>
+            <div class="app-section" id="tone_sec"></div>
+            <div class="app-section" id="language_sec"></div>
+            <div class="app-section" id="fact_finding_sec"></div>
+            <div class="app-section" id="communication_sec"></div>
+            <div class="app-section" id="call_handling_sec"></div>
+            <div class="app-section" id="acct_verification_sec"></div>
+            <div class="app-section" id="prod_knowledge_sec"></div>
+            <div class="app-section" id="case_notations_sec"></div>
+            <div class="app-section" id="resp_and_account_sec"></div>
+            <div class="app-section" id="call_closing_sec"></div>
+            <div class="app-section" id="auto_fails_sec"></div>
+            <div class="app-section" id="examples_sec"></div>
+            <div class="app-section" id="appeal_proc_sec"></div>
           </div>
         </div>
       </div>
     </div>
+    <script type="text/javascript" src="lib/nav.js"></script>
   </body>
 </html>

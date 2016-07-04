@@ -1,50 +1,54 @@
 mixin navbar_builder(title)
-  pane.pane-sm.sidebar
-    nav.nav-group
-      h5.nav-group-title=title
+  div.pane.pane-sm.sidebar
+    div.logo
 
-      span.nav-group-item
-        span.icon.icon-home
-        | Home
-      span.nav-group-item
-        span.icon.icon-home
-        | Call Opening
-      span.nav-group-item
-        span.icon.icon-home
-        | Tone
-      span.nav-group-item
-        span.icon.icon-home
-        | Language
-      span.nav-group-item
-        span.icon.icon-home
-        | Fact Finding
-      span.nav-group-item
-        span.icon.icon-home
-        | Communication
-      span.nav-group-item
-        span.icon.icon-home
-        | Call Handling
-      span.nav-group-item
-        span.icon.icon-home
-        | Account Verification
-      span.nav-group-item
-        span.icon.icon-home
-        | Product Knowledge
-      span.nav-group-item
-        span.icon.icon-home
-        | Case Notations
-      span.nav-group-item
-        span.icon.icon-home
-        | Responsibility and Accountability
-      span.nav-group-item
-        span.icon.icon-home
-        | Call Closing
-      span.nav-group-item
-        span.icon.icon-home
-        | Auto Fails
-      span.nav-group-item
-        span.icon.icon-home
-        | Examples
-      span.nav-group-item
-        span.icon.icon-home
-        | Appeal Process
+    div.sidebar-menu
+      nav.nav-group
+        h1.nav-group-title.text-center Menu
+
+        div.sidebar-menu-items
+
+          button#homepage.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Home
+
+          button#call_open.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Call Opening
+
+          button#tone.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Tone
+
+          button#language.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Language
+
+          button#fact_finding.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Fact Finding
+
+          button#communication.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Communication
+
+          button#call_handling.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Call Handling
+
+          button#acct_verification.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Account Verification
+
+          button#prod_knowledge.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Product Knowledge
+
+          button#case_notations.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Case Notations
+
+          button#resp_and_account.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Responsibility and Accountability
+
+          button#call_closing.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Call Closing
+
+          button#auto_fails.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Auto Fails
+
+          button#examples.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Examples
+
+          button#appeal_proc.nav-group-item.btn.btn-large.btn-default.icon.icon-home.main-btn
+            | Appeal Process

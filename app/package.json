@@ -7,14 +7,15 @@
   "copyright": "© 2016, Dealertrack",
   "main": "background.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "postinstall": "node ../tasks/rebuild_native_modules"
   },
   "dependencies": {
-    "fs-jetpack": "^0.9.2"
+    "electron-json-storage": "^2.0.0",
+    "fs-jetpack": "^0.9.2",
+    "lodash": "^4.13.1"
   },
-  "devDependencies": {
-
-  },
+  "devDependencies": {},
   "packageNameTemplate": "{{name}}-v{{version}}-{{platform}}-{{arch}}",
   "osx": {
     "build": "1",

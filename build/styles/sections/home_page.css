@@ -1,21 +1,13 @@
 /* Home Page -----------------------------------*/
 
-.pane {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-
-
-  background: url('../../assets/images/htmlbg.png') repeat;
+/*.pane.sections-list {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-}
+  align-items: center;
+}*/
 
-.home_page {
-  padding: 1.619em;
+/*#homepage .app-section {
   height: 100%;
   width: 80%;
   display: flex;
@@ -23,9 +15,9 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-}
+}*/
 
-.home_page .home_page_image {
+#homepage_sec {
   display: flex;
   align-items: center;
   justify-content: center;

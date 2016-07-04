@@ -73,7 +73,8 @@ export default function (name, options) {
     userDataDir.write(stateStoreFile, state, { atomic: true });
   };
 
-  state = ensureVisibleOnSomeDisplay(restore());
+  // state = ensureVisibleOnSomeDisplay(restore());
+  state = ensureVisibleOnSomeDisplay(resetToDefaults());
 
   win = new BrowserWindow(Object.assign({}, options, state));
 
