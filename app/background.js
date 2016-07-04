@@ -6,10 +6,10 @@ var mainWindow
 
 app.on('ready', function () {
   var mainWindow = createWindow('main', {
-    width: 1200,
-    minWidth: 870,
-    height: 800,
-    minHeight: 588
+    width: 1000,
+    minWidth: 1000,
+    height: 618,
+    minHeight: 618
   })
 
   mainWindow.loadURL('file://' + __dirname + '/app.html')
