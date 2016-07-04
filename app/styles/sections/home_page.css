@@ -1,0 +1,38 @@
+/* Home Page -----------------------------------*/
+
+.pane {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+
+  background: url('../../assets/images/htmlbg.png') repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_page {
+  padding: 1.619em;
+  height: 100%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.home_page .home_page_image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  background: url('../../assets/images/first_page_img.png') no-repeat;
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+}
