@@ -1,13 +1,13 @@
-/* Home Page -----------------------------------*/
+/* Auto Fails Page -----------------------------------*/
 
-#homepage_sec {
+#auto_fails_sec {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
 
-  background: url('../../assets/images/first_page_img.png') no-repeat;
+  background: url('../../assets/images/auto_fails.png') no-repeat;
   /*background-size: contain;*/
   background-size: 100% 100%;
 }

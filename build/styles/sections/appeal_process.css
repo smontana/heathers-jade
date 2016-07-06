@@ -1,13 +1,13 @@
-/* Home Page -----------------------------------*/
+/* Appeal Process Page -----------------------------------*/
 
-#homepage_sec {
+#appeal_proc_sec {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100%;
   width: 100%;
 
-  background: url('../../assets/images/first_page_img.png') no-repeat;
+  background: url('../../assets/images/appeal_process.png') no-repeat;
   /*background-size: contain;*/
   background-size: 100% 100%;
 }

@@ -1,0 +1,13 @@
+/* Responsibility And Accountability Page -----------------------------------*/
+
+#resp_and_account_sec {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+
+  background: url('../../assets/images/responsibility_and_accountability.png') no-repeat;
+  /*background-size: contain;*/
+  background-size: 100% 100%;
+}

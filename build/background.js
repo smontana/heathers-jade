@@ -87,10 +87,15 @@ var env = jetpack.cwd(__dirname).read('env.json', 'json');
 
 electron.app.on('ready', function () {
   var mainWindow = createWindow('main', {
-    width: 1000,
-    minWidth: 1000,
-    height: 618,
-    minHeight: 618
+    // width: 1000,
+    // minWidth: 1000,
+    // height: 618,
+    // minHeight: 618
+    width: 900,
+    minWidth: 900,
+    height: 640,
+    minHeight: 640,
+    autoHideMenuBar: true
   })
 
   mainWindow.loadURL('file://' + __dirname + '/app.html')
