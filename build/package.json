@@ -1,6 +1,6 @@
 {
-  "name": "heathers-qpa-app-dev",
-  "productName": "QPA Handbook Dev",
+  "name": "heathers-qpa-app",
+  "productName": "QPA Handbook",
   "description": "QPA booklet.",
   "version": "0.1.0",
   "author": "Stephen Montana",
